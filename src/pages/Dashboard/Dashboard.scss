@@ -1,0 +1,64 @@
+.dashboard {
+  &__link {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 30px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+
+    background-color: #fbb13c;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: #b48031;
+    }
+
+    &--red {
+      color: #fff;
+      background-color: #d81159;
+
+      &:hover {
+        background-color: #b6104a;
+      }
+    }
+  }
+
+  &__table {
+    margin: 0 auto;
+
+    color: #fff;
+    background-color: #011638;
+    border: 2px solid black;
+
+    & td {
+      max-width: 200px;
+      padding: 5px;
+
+      background-color: #364156;
+    }
+
+    & th {
+      height: 30px;
+      padding: 10px;
+
+      text-align: center;
+      background-color: #011638;
+    }
+
+    & tr {
+      background-color: red;
+    }
+  }
+}

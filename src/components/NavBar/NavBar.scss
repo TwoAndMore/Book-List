@@ -1,0 +1,46 @@
+.navbar {
+  height: 50px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+  }
+
+  &__item {
+    padding: 10px 0;
+    margin-right: 15px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #364156;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: #011638;
+    }
+
+    &--active {
+      position: relative;
+
+      color: #011638;
+
+      &:after {
+        content: "";
+
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+
+        background-color: #011638;
+        border-radius: 4px;
+      }
+    }
+  }
+}

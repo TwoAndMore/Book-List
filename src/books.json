@@ -1,0 +1,96 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "category": "Horror",
+      "isbn": 9390166268
+    },
+    {
+      "id": 2,
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "category": "Classics",
+      "isbn": 8129140179
+    },
+    {
+      "id": 3,
+      "title": "Fire",
+      "author": "Daniel",
+      "category": "Fantasy",
+      "isbn": 5818573817
+    },
+    {
+      "id": 4,
+      "title": "Sweet Home",
+      "author": "Webtoon",
+      "category": "Detective and Mystery",
+      "isbn": 9390166268
+    },
+    {
+      "id": 5,
+      "title": "json-ser1ver",
+      "author": "Debra Fine",
+      "category": "Classics",
+      "isbn": 5818573817
+    },
+    {
+      "id": 6,
+      "title": "FINE ART OF SMALL TALK",
+      "author": "Debra Fine",
+      "category": "Detective and Mystery",
+      "isbn": 1927627593
+    },
+    {
+      "title": "Book",
+      "author": "DenNIS",
+      "category": "Horror",
+      "isbn": 1927627593,
+      "id": 8,
+      "ISBN": 1927627593
+    },
+    {
+      "title": "Book",
+      "author": "Den",
+      "category": "Horror",
+      "isbn": 1927627593,
+      "id": 9
+    },
+    {
+      "title": "Book",
+      "author": "Den",
+      "category": "Horror",
+      "isbn": 1927627593,
+      "id": 10
+    },
+    {
+      "title": "Book",
+      "author": "Den",
+      "category": "Horror",
+      "isbn": 1927627593,
+      "id": 11
+    },
+    {
+      "title": "Book",
+      "author": "Den",
+      "category": "Horror",
+      "isbn": 1927627593,
+      "id": 12
+    },
+    {
+      "title": "1",
+      "author": "11",
+      "category": "Detective and Mystery",
+      "isbn": 1,
+      "id": 13
+    },
+    {
+      "title": "56",
+      "author": "5",
+      "category": "Classics",
+      "isbn": 2,
+      "id": 14
+    }
+  ]
+}
