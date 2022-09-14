@@ -23,8 +23,9 @@ export const AddABook: React.FC<Props> = (props) => {
   const [ISBN, setISBN] = useState(0);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const navigate = useNavigate();
   const { bookID = '' } = useParams();
+
+  const navigate = useNavigate();
 
   const isEditing = bookID.length > 0;
 
@@ -139,7 +140,7 @@ export const AddABook: React.FC<Props> = (props) => {
 
     setTimeout(() => {
       navigate('/');
-    }, 300);
+    }, 500);
 
     ClearFields();
   };
@@ -174,7 +175,6 @@ export const AddABook: React.FC<Props> = (props) => {
           onChange={(res) => setISBN(+res)}
         />
 
-        {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
         <label className="addBook__label" htmlFor="11">
           Category
         </label>

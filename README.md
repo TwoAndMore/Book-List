@@ -1,9 +1,10 @@
-# React TypeScript Starter Pack
+# Book list. How to work with.
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+### STEPS
+1. Download or clone repository.
+2. Open project folder with code editor (VS Code, WebStorm, other).
+3. Run ```npm install``` in terminal.
+4. Install JSON server ```npm install -g json-server```.
+5. Start JSON server ```json-server -p 5000 src/books.json```.
+6. Open second terminal and run ```npm start```.
+7. If tab does not open, go to ```http://localhost:3000``` in your browser.

@@ -73,8 +73,9 @@
     }
 
     &:disabled {
-      cursor: auto;
       background-color: gray;
+
+      cursor: auto;
     }
   }
 }

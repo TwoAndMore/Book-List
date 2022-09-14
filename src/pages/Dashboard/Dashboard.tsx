@@ -32,7 +32,7 @@ export const Dashboard: React.FC<Props> = (props) => {
       ) : (
         <>
           {books.length <= 0 ? (
-            <p>There is no books on the server/ Server Error</p>
+            <p>There is no books on the server / Server Error</p>
           ) : (
             <table className="dashboard__table">
               <thead>
