@@ -1,7 +1,7 @@
 # Book list. How to work with.
 
 ### STEPS
-1. Download or clone repository. `git clone https://github.com/TwoAndMore/Book-List.git`
+1. Download or clone repository. `git clone https://github.com/TwoAndMore/Book-List.git`.
 2. Open project folder with code editor (VS Code, WebStorm, other).
 3. Run ```npm install``` in terminal.
 4. Install JSON server ```npm install -g json-server```.
