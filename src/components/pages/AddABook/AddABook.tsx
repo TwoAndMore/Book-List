@@ -1,10 +1,16 @@
 import './AddABook.scss';
-import React, { FormEvent, useEffect, useState } from 'react';
+import React,
+{
+  FormEvent,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { TextField } from '../../components/TextField/TextField';
-import { CategoriesType } from '../../enums/CategoriesType';
-import { Book } from '../../types/Book';
-import { createBook, updateBook } from '../../api/books';
+import { TextField } from '../../TextField/TextField';
+import { CategoriesType } from '../../../enums/CategoriesType';
+import { Book } from '../../../types/Book';
+import { createBook, updateBook } from '../../../api/books';
 
 type Props = {
   books: Book[],
@@ -29,7 +35,7 @@ export const AddABook: React.FC<Props> = (props) => {
 
   const isEditing = bookID.length > 0;
 
-  const canSubmit = () => {
+  const canSubmit = useMemo(() => {
     if (title.trim().length <= 0) {
       return false;
     }
@@ -43,7 +49,7 @@ export const AddABook: React.FC<Props> = (props) => {
     }
 
     return true;
-  };
+  }, [title, author, ISBN]);
 
   const handleUpdateBook = (
     bookId: number,
@@ -194,7 +200,7 @@ export const AddABook: React.FC<Props> = (props) => {
         <button
           type="submit"
           className="addBook__button"
-          disabled={!canSubmit()}
+          disabled={!canSubmit}
         >
           Add a Book
         </button>

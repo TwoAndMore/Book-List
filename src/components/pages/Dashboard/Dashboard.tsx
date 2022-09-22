@@ -1,9 +1,9 @@
 import './Dashboard.scss';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Book } from '../../types/Book';
-import { deleteBook } from '../../api/books';
-import { Loader } from '../../components/Loader/Loader';
+import { Book } from '../../../types/Book';
+import { deleteBook } from '../../../api/books';
+import { Loader } from '../../Loader/Loader';
 
 type Props = {
   books: Book[],

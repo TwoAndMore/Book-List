@@ -2,8 +2,8 @@ import './App.scss';
 import React, { useEffect, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { NavBar } from './components/NavBar/NavBar';
-import { Dashboard } from './pages/Dashboard/Dashboard';
-import { AddABook } from './pages/AddABook/AddABook';
+import { Dashboard } from './components/pages/Dashboard/Dashboard';
+import { AddABook } from './components/pages/AddABook/AddABook';
 import { getBooks } from './api/books';
 import { Book } from './types/Book';
 
